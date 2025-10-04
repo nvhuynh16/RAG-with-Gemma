@@ -1,0 +1,31 @@
+# Core ML dependencies
+torch==2.5.1
+transformers==4.46.3
+sentence-transformers==3.3.1
+numpy==1.26.4
+faiss-cpu==1.9.0.post1
+tqdm==4.67.1
+tiktoken==0.8.0
+
+# Quantization dependencies (optional - for 4-bit model loading)
+bitsandbytes==0.45.0
+accelerate==1.2.1
+
+# API dependencies
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.3
+python-multipart==0.0.20
+
+# Web UI dependencies
+gradio==5.7.1
+
+# MLOps dependencies
+mlflow==2.19.0
+dvc==3.59.1
+pytest==8.3.4
+pytest-cov==6.0.0
+black==24.10.0
+flake8==7.1.1
+mypy==1.13.0
+prometheus-client==0.21.0
